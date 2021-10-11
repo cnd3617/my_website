@@ -8,9 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+      A FRENCH ENGINEER TRYING TO GET INTO FINANCE.
+    title: Hi, my name is Côme
   blog: {}
   contact:
     address:
@@ -24,9 +23,9 @@ params:
       - email: cdegermay.mfa2022@london.edu
         title: Email
     enable: yes
-    phone:
-      - phone: (000) 000-0000 x1234
-        title: Phone
+    #phone:
+    # - phone: (000) 000-0000 x1234
+    #   title: Phone
   custom_css: []
   custom_js: []
   description: Your description
@@ -56,9 +55,9 @@ params:
 #        url: https://www.github.com
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/c%C3%B4me-de-germay/
   image: ''
-  name: Your name
+  name: Côme de Germay
   navigation:
     button1:
       - name: Get Started
@@ -108,11 +107,8 @@ params:
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \n    Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
-      amet pharetra et feugiat tempus."
-    title: Massa libero
+    subtitle: "Following my baccalaureate, I decided to pursue a 4-year degree at Imperial College London in Electronics and Computer Science. \n After a first experience in Bouygues Telecom (French carier), 
+    I joinded AlixPartners as a strategy consultant, where I was first introduced to finance and its highly intebnse atmosphere. \n It was great but not technical enough for me, hence the next year I joined BNP Paribas in their Risk Division. \n
+    Finally, I joined Ardian as a Private Equity intern and loved it, motivating me to work in Corporate Finance.\n, After a brieve attempt to launch my start-up I am looking for new experiences :)" 
+    title: Shortned story
     url: blogs
