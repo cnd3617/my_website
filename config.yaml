@@ -81,16 +81,16 @@ params:
     enable: yes
     showcase:
       - image: pictures/london.jpeg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
+        subtitle: Democratizing real estate through blockchain
+        title: HOMNES Invest
         url: blogs/aliquam
-      - image: pictures/THINKTANK.png
-        subtitle: ThinkTank - clear water, no compromises 
-        title: Tempus
+      - image: THINKTANK.png
+        subtitle: Clear water, no compromises 
+        title: ThinkTank
         url: blogs/tempus
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+        subtitle: Imperial College London - Project 2
+        title: C Compiler & MIPS CPU Emulator
         url: blogs/magna
       - image: pic04.jpg
         subtitle: Nisl Sed Aliquam
