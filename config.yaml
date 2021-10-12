@@ -88,7 +88,7 @@ params:
         subtitle: Clear water, no compromises 
         title: ThinkTank
         url: blogs/tempus
-      - image: pic03.jpg
+      - image: pictures/london.jpeg
         subtitle: Imperial College London - Project 2
         title: C Compiler & MIPS CPU Emulator
         url: blogs/magna
