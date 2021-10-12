@@ -8,8 +8,14 @@ description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis mag
   sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
   consequat tincidunt. Vivamus et sagittis tempus.
 draft: false
-image: pic08.jpg
+image: head.png
 keywords: ""
 slug: tempus
-title: Tempus
+title: Real-time Image Processing on FPGAs
 ---
+
+# Overview
+Programmed a FPGA board to perform real-time image processing and scan two faces to perform a Face Swap.        
+Obtained 77% – Verilog, Python
+
+Read our report ![here](Face Swap Report.pdf).

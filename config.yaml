@@ -23,9 +23,9 @@ params:
       - email: cdegermay.mfa2022@london.edu
         title: Email
     enable: yes
-    #phone:
-    # - phone: (000) 000-0000 x1234
-    #   title: Phone
+    phone:
+     - phone: 3630
+       title: Phone
   custom_css: []
   custom_js: []
   description: Your description
@@ -50,9 +50,9 @@ params:
 #      - icon: fa-instagram
 #        label: Instagram
 #        url: https://www.instagram.com
-#      - icon: fa-github
-#        label: GitHub
-#        url: https://www.github.com
+      - icon: fa-github
+        label: GitHub
+        url: https://www.github.com/cnd3617
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com/in/c%C3%B4me-de-germay/
@@ -60,50 +60,44 @@ params:
   name: Côme de Germay
   navigation:
     button1:
-      - name: Get Started
-        url: blogs
+      - name: My CV
+        url: /pdf/CV C de GERMAY.pdf
     button2:
-      - name: Log In
-        url: '#'
+      - name: HOMNES Invest - Pitch deck
+        url: /pdf/HOMNES Invest.pdf
     links:
       - name: Home
         url: '#'
-      - name: Blogs
-        url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
     menu: Menu
-    subtitle: By HTML5 Up
-    title: Forty
+    subtitle: at LBS
+    title: CGC
   tiles:
     enable: yes
     showcase:
-      - image: pictures/london.jpeg
+      - image: lbs.jpeg
+        subtitle: London Business School - Project 1
+        title: Pre-class R project
+        url: blogs/ipsum
+      - image: House.jpeg
         subtitle: Democratizing real estate through blockchain
         title: HOMNES Invest
-        url: blogs/aliquam
-      - image: THINKTANK.png
+        url: https://www.homnesinvest.com
+      - image: water.jpeg
         subtitle: Clear water, no compromises 
         title: ThinkTank
-        url: blogs/tempus
-      - image: pictures/london.jpeg
+        url: https://mcutett-295bc.web.app/
+      - image: C++.jpeg
         subtitle: Imperial College London - Project 2
         title: C Compiler & MIPS CPU Emulator
         url: blogs/magna
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+      - image: fpga.jpeg
+        subtitle: Imperial College London - Project 1
+        title: Real-time Image Processing on FPGAs
+        url: blogs/tempus
+      - image: Porto.png
+        subtitle: Old portofolio
+        title: Portosaurus
+        url: https://portosaurus.github.io/ComedeGermaydeC/
   two:
     buttonText: Get Started
     enable: yes
