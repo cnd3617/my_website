@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lifestyle on Côme de Germay&#39;s Portfolio</title>
+    <link>https://come2g.netlify.app/blogs/</link>
+    <description>Recent content in Lifestyle on Côme de Germay&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Oct 2017 22:27:21 -0500</lastBuildDate><atom:link href="https://come2g.netlify.app/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThinkTank</title>
+      <link>https://come2g.netlify.app/blogs/aliquam/</link>
+      <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
+      
+      <guid>https://come2g.netlify.app/blogs/aliquam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-time Image Processing on FPGAs</title>
+      <link>https://come2g.netlify.app/blogs/tempus/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>https://come2g.netlify.app/blogs/tempus/</guid>
+      <description>Overview Programmed a FPGA board to perform real-time image processing and scan two faces to perform a Face Swap. Obtained 77% – Verilog, Python
+Read our report ![here](Face Swap Report.pdf).</description>
+    </item>
+    
+    <item>
+      <title>C Compiler &amp; MIPS CPU Emulator</title>
+      <link>https://come2g.netlify.app/blogs/magna/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>https://come2g.netlify.app/blogs/magna/</guid>
+      <description>Overview Built a C to MIPS Compiler and an emulator that executes binary files and simulates actions on CPU registers and disk memory. Obtained 83% – C++, MIPS
+See the code on github.
+Refelection:
+Project and Time Management Important Note We started our project as soon as possible, to avoid being pressured at the end of the term and not be disturbed by clashing deadlines. Therefore, we worked on another repository, which you can find on Imperial College&amp;rsquo;s GitHub (gilet_jaune) where there is the detailed about the commit logs.</description>
+    </item>
+    
+    <item>
+      <title>MFA 2022 Pre-programme Assignment</title>
+      <link>https://come2g.netlify.app/blogs/ipsum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://come2g.netlify.app/blogs/ipsum/</guid>
+      <description>The goal is to test your software installation, to demonstrate competency in Markdown, and in the basics of ggplot.
+MY BIOGRAPHY My name is Come de Germay and I am coming from France
+knitr::include_graphics(&amp;#34;Capture d’écran 2020-07-14 à 13.48.24.png&amp;#34;) I have been studying software engineering in the UK and in France for 4 years at Imperial College and Ecole Polytechnique (Paris, France).
+After various internships in:
+ Industry, Tech, Consulting, Banking, and Private Equity  I have cofounded a startup HOMNES Invest which aims at democratizing real estate investment using blockchain.</description>
+    </item>
+    
+  </channel>
+</rss>

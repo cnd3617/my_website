@@ -1,17 +1,4 @@
 ---
-title: "Ipsum"
-description: ""
-slug: "ipsum"
-image: pic10.jpg
-keywords: ""
-categories: 
-    - ""
-    - ""
-date: 2017-10-31T21:28:43-05:00
-draft: false
----
-
----
 title: "MFA 2022 Pre-programme Assignment"
 author: "DE GERMAY Come"
 date: "16/08/21"
@@ -23,25 +10,24 @@ output:
    toc_float: yes
  pdf_document:
    toc: yes
+slug: "ipsum"
 ---
 
-```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
-library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
-library(gapminder)  # gapminder dataset
-library(here)
-library(janitor)
-```
+
 
 The goal is to test your software installation, to demonstrate competency in Markdown, and in the basics of `ggplot`.
-
-Please delete all the intro text I wrote from line 22 to line 69 and start writing your short biography after this blockquote.
 
 
 # MY BIOGRAPHY
 
 My name is Come de Germay and I am coming from France
 
-![mypic](Capture d’écran 2020-07-14 à 13.48.24.png)
+
+```r
+knitr::include_graphics("Capture d’écran 2020-07-14 à 13.48.24.png",auto_pdf = getOption("knitr.graphics.auto_pdf", FALSE))
+```
+
+<img src="Capture d’écran 2020-07-14 à 13.48.24.png" width="638" />
 
 I have been studying software engineering in the UK and in France for 4 years at Imperial College and Ecole Polytechnique (Paris, France).
 

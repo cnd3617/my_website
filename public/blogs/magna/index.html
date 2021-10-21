@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Your description">
+	<meta name="author" content="Côme de Germay">
+	<meta name="generator" content="Hugo 0.88.1" />
+	<title>C Compiler &amp; MIPS CPU Emulator &middot; Côme de Germay&#39;s Portfolio</title>
+	<!-- Stylesheets -->
+	
+	<link rel="stylesheet" href="https://come2g.netlify.app/css/main.css"/>
+	
+	
+
+	
+
+	<!-- Custom Fonts -->
+	<link href="https://come2g.netlify.app/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://come2g.netlify.app/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://come2g.netlify.app/favicon.ico">
+	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
+	<![endif]-->
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+    <header id="header" class="alt">
+        <a href="https://come2g.netlify.app/" class="logo"><strong>CGC</strong> <span>at LBS</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+                <li><a href="https://come2g.netlify.app/">Home</a></li>
+            
+
+        </ul>
+        <ul class="actions vertical">
+            
+                <li><a href="https://come2g.netlify.app/pdf/CV%20C%20de%20GERMAY.pdf" class="button special fit">My CV</a></li>
+            
+            
+                <li><a href="https://come2g.netlify.app/pdf/HOMNES%20Invest.pdf" class="button fit">HOMNES Invest - Pitch deck</a></li>
+            
+        </ul>
+    </nav>
+
+        <!-- Main -->
+            <div id="main" class="alt">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>C Compiler &amp; MIPS CPU Emulator</h1>
+                            </header>
+                            
+                                <span class="image main"><img src="/img/blogs/C&#43;&#43;.jpeg" alt="" /></span>
+                            
+                            <h1 id="overview">Overview</h1>
+<p>Built a C to MIPS Compiler and an emulator that executes binary files and simulates actions on CPU registers and disk memory.  <br>
+Obtained 83% – C++, MIPS</p>
+<p>See the code on <a href="https://github.com/cnd3617?tab=repositories">github</a>.</p>
+<p>Refelection:</p>
+<h1 id="project-and-time-management">Project and Time Management</h1>
+<h2 id="important-note">Important Note</h2>
+<p>We started our project as soon as possible, to avoid being pressured at the end of the term and not be disturbed by clashing deadlines. Therefore, we worked on another repository, which you can find on Imperial College&rsquo;s GitHub (<code>gilet_jaune</code>) where there is the detailed about the commit logs.</p>
+<h2 id="milestones-review">Milestones Review</h2>
+<ol>
+<li>Basic Lexer</li>
+</ol>
+<p>Estimated time: 5</p>
+<p>Actual effort: 10</p>
+<p>Coding the first version of the lexer consists of identifying all the tokens used in C and writing regular expressions for integers and identifiers. This task took us longer than expected as we forgot to initially take a step back from our project. We had to have a clear view of how to design our compiler. We started by listing all the tokens used in the different features of the C language. Then, we wrote the code.</p>
+<p>Conclusion: It is better not to start too soon and plan before starting to code. Understanding how the compiler works as a whole was particularly important. It cost us 5 hours.</p>
+<ol start="2">
+<li>Improved Lexer</li>
+</ol>
+<p>Estimated time: 5</p>
+<p>Actual effort: 1</p>
+<p>This task took us less time than expected. Indeed, as we increased the number of hours for the first milestone, we produced a more complete Lexer than expected. We only had to specify the regular expressions for strings, integers, hexadecimals, float and identifiers.</p>
+<p>Conclusion: It is better to plan effectively. We reduced the time spent of 4 hours compared to what was expected. We respected the time we gave us for the lever.</p>
+<ol start="3">
+<li>Basic Parser</li>
+</ol>
+<p>Estimated time: 20</p>
+<p>Actual effort: 25</p>
+<p>We spent 10 hours understanding the grammar of C and the structure of all the features. We decided to create a parser that would work for all the features of C89 so that we will be free to implement advanced features in code generation without changing the way we build the AST. After this was done, we then started to write it. Writing a basic parser that implemented most expressions took us 10 hours. We executed this task efficiently. However, without the AST objects, we could not test our design.</p>
+<p>Conclusion: The planning was effective but we did not follow a test-driven design as we could not test the code. We might have to solve a lot of bugs later.</p>
+<ol start="4">
+<li>Improved Parser and AST generation</li>
+</ol>
+<p>Estimated time: 30</p>
+<p>Actual Effort: 50</p>
+<p>We under-estimated this task. It was one of the greatest challenge for us. We wanted to test our parser before starting to design the Python translator. To do this, we wrote an AST which was supposed to print any code inputted from C. This was done quickly as it was quite a straightforward task, it took us 20 hours. We used the tests given for the translator to test the parser. We faced various issues: wrong types in the parser (parameters), wrong linking in the parser (syntax errors) etc. Fixing them took us 30 hours.</p>
+<p>Conclusion: Doing things step by step was a good idea. We can now move on with a fully functional parser. We went over the time estimation as we did not think the testing would be that long.</p>
+<ol start="5">
+<li>Python Translation and Global Variables</li>
+</ol>
+<p>Estimated time: 30</p>
+<p>Actual Effort: 30</p>
+<p>It was easy to move on to python translation as we now have a functional parser that supports all the features requested. We added to our abstract syntax tree a translating function. To make it easier to read the code we changed the structure of our files. We divided the really long file into many different files for each feature. It will help us to continue the project and to debug our code. We had a hard time to understand the principles behind global variables.</p>
+<p>We tried to implement them following this hypothesis:</p>
+<ul>
+<li>
+<p>If the function is the main, no need to declare the global variables</p>
+</li>
+<li>
+<p>Otherwise, do it.</p>
+</li>
+</ul>
+<p>That turned out to make us pass all the tests from the Python formative.</p>
+<p>Conclusion: Organisation is important, the more we stay focused on the project, the better we are at it. Working on it our full time is great, we begin to see the results.</p>
+<ol start="6">
+<li>MIPS Code Generation</li>
+</ol>
+<p>Estimated time: 140</p>
+<p>Actual Effort: 205</p>
+<p>We begin the code generation part thinking it would be comparable to the python translation, we quickly understood it is not. We started methodically, first the expressions, then the conditions, then the statement, then the function. After a full week of intense work, we could see some results and MIPS code generated,  it felt good. We quickly decided to take care of register and memory allocation. After this was done, generated code was greatly improved. We were checking our results with <a href="https://godbolt.org/">https://godbolt.org/</a> (C to MIPS compiler). Another full week working on it helped us to get to the point where most of the ‘Intermediate features’ were done. We spent, these two weeks, much more time than we should have. However, the more we were coding the better the compiler, so we kept on going. We started on using ‘qemu-mips’ to create our own test-cases and fixed the different issues we were having. It was hard. Finally, we could see the progress with each of the test-cases we would pass.</p>
+<p>Conclusion: Test-driven software design made working on the project more fun and interesting even when it was really difficult. The challenge of passing more tests, kept us working on the compiler. However, we believe we could have shortened the time spent on these parts. We could have planned the implementation of more advanced features and write code that was future-proof. We spent quite a lot of time revising what we implemented before.</p>
+<ol start="7">
+<li>Codegen of Functions and Arrays</li>
+</ol>
+<p>Estimated time: 70</p>
+<p>Actual Effort: 40</p>
+<p>We continued working on the compiler and chose one part each of us will do for the harder features. We chose to develop function calls with more than 4 parameters, arrays and enum. Arrays required us to be better at allocating memory from the stack. To make them work, we had to change the way our AST was producing the code generation. We also had to think about pointer arithmetics. We did not have any experience using enum so we had to learn about them first. The function calls with more than 4 parameters were hard. It was a real challenge to understand how to store the added parameters. This took us quite a lot of time for all these advanced features (3 days). This gave us a better understanding of how the stack and memory work. Together, we finally added some small feature (global variables in MIPS, pointers…).</p>
+<p>Conclusion: We learned a lot by working each of us on different parts of the project. However, together we are more efficient. We debate a lot and question the decision we make to be sure not to go the wrong decision. This task was still done quicker than expected.</p>
+<ol start="8">
+<li>Clean-up</li>
+</ol>
+<p>Estimated time: 20</p>
+<p>Actual Effort: 30</p>
+<p>One element was changed in the spec: the way global variables are used in Python. We were wrong about their implementation. We then changed them accordingly to the spec. Additionally, we took time for formatting the outputs (putting the /t where needed, formatting our code…). It was done efficiently, but the unexpected change in the spec modified the effort planed.</p>
+<p>Conclusion: We lost time due to the globals. This is the downside of starting early. We should have looked more before making assumptions.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The project taught us a lot about software design and development. It gave us the opportunity to use various coding languages, but also understand the way a language is defined. Also, it was great to work in pair as we could split the work but also work side by side when needed. Starting earlier was a good choice:</p>
+<ul>
+<li>
+<p>We learned a lot, could apply what we were learning from the lectures in real time.</p>
+</li>
+<li>
+<p>Managed our time so the end of the term would not be too stressful.</p>
+</li>
+<li>
+<p>Could apply our learning from the labs exercise in real time.</p>
+</li>
+<li>
+<p>Although the specs changed over the weeks, it helped us to be more flexible which is a great quality to have when producing software in a professional environment.</p>
+</li>
+</ul>
+<p>Time Management:</p>
+<p>Planned = 320 hours</p>
+<p>Actual = 391 hours</p>
+<p>Ratio = 1.22</p>
+<p>We exceeded our prediction. We believe we could have reduced the time spent by having a better designed plan in the beginning. However, we are still happy to be finished with one of our biggest and most interesting coding projects.</p>
+
+                        </div>
+                    </section>
+            <!-- Disqus Inject -->
+                
+            </div>
+            
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+                    <li><a href="https://www.github.com/cnd3617" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                    <li><a href="https://www.linkedin.com/in/c%C3%B4me-de-germay/" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Company Name</li>
+                
+                <li>Design:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+            
+        </div>
+
+    <!-- Scripts -->
+        <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://come2g.netlify.app/js/jquery.min.js"></script>
+    <script src="https://come2g.netlify.app/js/jquery.scrolly.min.js"></script>
+    <script src="https://come2g.netlify.app/js/jquery.scrollex.min.js"></script>
+    <script src="https://come2g.netlify.app/js/skel.min.js"></script>
+    <script src="https://come2g.netlify.app/js/util.js"></script>
+
+    
+
+    <!-- Main JS -->
+    <script src="https://come2g.netlify.app/js/main.js"></script>
+
+    
+
+    
+
+    </body>
+</html>
