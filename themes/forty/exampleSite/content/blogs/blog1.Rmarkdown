@@ -1,28 +1,13 @@
 ---
-title: "Ipsum"
-description: ""
-slug: "ipsum"
-image: pic10.jpg
-keywords: ""
-categories: 
-    - ""
-    - ""
-date: 2017-10-31T21:28:43-05:00
-draft: false
----
-
----
 title: "MFA 20222 Pre-programme Assignment"
 author: "DE GERMAY Come"
 date: "16/08/21"
 output:
- html_document:
-   theme: flatly
-   highlight: zenburn
-   toc: yes
-   toc_float: yes
- pdf_document:
-   toc: yes
+  blogdown::html_page:
+    toc: true
+    toc_depth: 1
+    number_sections: true
+    fig_width: 6
 ---
 
 ```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
