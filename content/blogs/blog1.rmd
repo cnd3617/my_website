@@ -28,8 +28,6 @@ The goal is to test your software installation, to demonstrate competency in Mar
 
 My name is Come de Germay and I am coming from France
 
-![](Capture d’écran 2020-07-14 à 13.48.24.png)
-
 I have been studying software engineering in the UK and in France for 4 years at Imperial College and Ecole Polytechnique (Paris, France).
 
 After various internships in:
